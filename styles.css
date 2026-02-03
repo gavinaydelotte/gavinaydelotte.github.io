@@ -10,50 +10,20 @@
 }
 
 *{box-sizing:border-box}
-html,body{height:100%;margin:0;font-family:Poppins,Segoe UI,Roboto,Arial,sans-serif;color:var(--text);background:linear-gradient(180deg,var(--sand-50),#eefbf9);-webkit-font-smoothing:antialiased}
+html,body{height:100%;margin:0;font-family:Poppins,Segoe UI,Roboto,Arial,sans-serif;color:var(--text);background:linear-gradient(180deg,var(--sand-50),#eefbf9)}
 
-.container{position:relative;max-width:960px;margin:48px auto;padding:32px;background:var(--glass);border-radius:16px;box-shadow:0 18px 40px rgba(11,38,57,0.08);backdrop-filter: blur(6px);}
-
-/* Typography */
-body{font-size:16px;line-height:1.65}
-h1{font-size:34px;line-height:1.05;margin:0}
-h2{font-size:20px;margin:0}
-p{margin:0 0 14px}
-
-/* Site nav */
-.site-nav{display:flex;justify-content:flex-end;gap:12px;margin-bottom:6px}
-.site-nav a{color:var(--accent);text-decoration:none;padding:8px 10px;border-radius:10px;font-weight:500}
-.site-nav a:hover{background:rgba(43,154,163,0.08)}
+.container{max-width:900px;margin:48px auto;padding:28px;background:var(--glass);border-radius:16px;box-shadow:0 12px 30px rgba(11,38,57,0.08);backdrop-filter: blur(6px);}
 
 /* Hero */
 .hero{display:flex;align-items:center;gap:16px;padding:8px 0 18px;border-bottom:1px solid rgba(11,38,57,0.04)}
 .avatar{width:84px;height:84px;border-radius:50%;background:radial-gradient(circle at 30% 30%,var(--sea-100),var(--sea-300));box-shadow:0 10px 25px rgba(43,154,163,0.18);flex:0 0 84px}
-.hero-text h1{margin:0;font-weight:600}
+.hero-text h1{margin:0;font-size:28px;font-weight:600}
 .muted{color:var(--muted);font-size:14px}
 
 .section{margin-top:18px}
-.section h2{margin:0 0 12px;color:var(--accent)}
+.section h2{margin:0 0 8px;font-size:18px;color:var(--accent)}
 
-/* Skills */
-.skills{display:flex;flex-wrap:wrap;gap:8px}
-.skill{background:linear-gradient(90deg,rgba(255,255,255,0.6),rgba(255,255,255,0.4));padding:8px 12px;border-radius:999px;font-weight:600;color:var(--accent);box-shadow:0 6px 18px rgba(11,38,57,0.04)}
-
-/* Projects */
-.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
-.project-card{background:linear-gradient(180deg,var(--sand-200),#fff);padding:14px;border-radius:12px;box-shadow:0 8px 24px rgba(11,38,57,0.04)}
-.project-card h3{margin:0 0 8px;font-size:16px}
-.btn{display:inline-block;background:var(--accent);color:white;padding:8px 12px;border-radius:10px;text-decoration:none;font-weight:600}
-
-/* Gallery */
-.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px}
-.photo{height:100px;border-radius:10px;background:linear-gradient(135deg,var(--sea-100),var(--sea-300));box-shadow:0 8px 20px rgba(43,154,163,0.08)}
-
-/* Testimonials */
-.testimonial{background:rgba(255,255,255,0.85);padding:14px;border-left:4px solid var(--accent);border-radius:8px}
-.testimonial p{margin:0}
-
-/* Footer */
-.site-footer{margin-top:26px;padding-top:18px;border-top:1px dashed rgba(11,38,57,0.04);display:flex;justify-content:space-between;align-items:center;font-size:14px;color:var(--muted)}
+.tag{display:inline-block;background:rgba(47,128,237,0.08);color:var(--accent);padding:6px 10px;border-radius:999px;font-size:13px}
 
 a{color:var(--accent);text-decoration:underline}
 
@@ -65,5 +35,4 @@ a{color:var(--accent);text-decoration:underline}
   .container{margin:20px;padding:18px}
   .hero{flex-direction:row}
   .avatar{width:64px;height:64px}
-  .gallery{grid-template-columns:repeat(3,1fr)}
 }
