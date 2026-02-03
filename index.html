@@ -9,6 +9,13 @@
 	</head>
 	<body>
 		<main class="container">
+			<nav class="site-nav" aria-label="Primary">
+				<a href="#about">About</a>
+				<a href="#skills">Skills</a>
+				<a href="#projects">Projects</a>
+				<a href="#gallery">Gallery</a>
+				<a href="#contact">Contact</a>
+			</nav>
 			<header class="hero">
 				<div class="avatar" aria-hidden="true"></div>
 				<div class="hero-text">
@@ -17,17 +24,55 @@
 				</div>
 			</header>
 
-			<section class="section">
+			<section id="about" class="section">
 				<h2>About Me</h2>
 				<p>Hi — I'm Gavin Aydelotte. I'm from Jensen Beach, Florida, and I attend Babson College where I study business and entrepreneurship.</p>
 			</section>
 
-			<section class="section">
-				<h2>Activities</h2>
-				<p>I play basketball and enjoy competing and practicing both team and individual skills. Basketball is a big part of my life on and off campus.</p>
+			<section id="skills" class="section">
+				<h2>Skills</h2>
+				<div class="skills">
+					<span class="skill">Basketball</span>
+					<span class="skill">Leadership</span>
+					<span class="skill">Entrepreneurship</span>
+					<span class="skill">Teamwork</span>
+				</div>
 			</section>
 
-			<section class="section">
+			<section id="projects" class="section">
+				<h2>Projects</h2>
+				<div class="projects">
+					<div class="project-card">
+						<h3>Class Log Collection</h3>
+						<p>A simple log of classroom notes and reflections.</p>
+						<a class="btn" href="#">View</a>
+					</div>
+					<div class="project-card">
+						<h3>Campus Sports</h3>
+						<p>Organized pickup games and intramural coordination.</p>
+						<a class="btn" href="#">Learn more</a>
+					</div>
+				</div>
+			</section>
+
+			<section id="gallery" class="section">
+				<h2>Gallery</h2>
+				<div class="gallery">
+					<div class="photo" aria-hidden="true"></div>
+					<div class="photo" aria-hidden="true"></div>
+					<div class="photo" aria-hidden="true"></div>
+					<div class="photo" aria-hidden="true"></div>
+				</div>
+			</section>
+
+			<section id="testimonials" class="section">
+				<h2>Testimonials</h2>
+				<div class="testimonial">
+					<p>"A focused teammate and natural leader on and off the court." — Teammate</p>
+				</div>
+			</section>
+
+			<section id="contact" class="section">
 				<h2>Contact</h2>
 				<p class="muted">gaydelotte1@babson.edu</p>
 			</section>
@@ -40,6 +85,13 @@
 					<li><a href="https://gavinaydelotte.github.io/logs/class4.md">Class 4</a></li>
 				</ul>
 			</section>
+
+			<footer class="site-footer">
+				<div>© <span id="year">2026</span> Gavin Aydelotte</div>
+				<div>
+					<a href="https://github.com/gavinaydelotte">GitHub</a> · <a href="#contact">Email</a>
+				</div>
+			</footer>
 		</main>
 	</body>
 </html>
